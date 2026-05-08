@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy &amp; Disclaimer — FieldCap PHX Exporter</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --text: #1a1a1a;
+      --muted: #444;
+      --border: #ccc;
+      --bg: #fff;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --text: #e8e8e8;
+        --muted: #b0b0b0;
+        --border: #444;
+        --bg: #121212;
+      }
+    }
+    body {
+      font-family: system-ui, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.55;
+      max-width: 42rem;
+      margin: 2rem auto;
+      padding: 0 1.25rem 3rem;
+      color: var(--text);
+      background: var(--bg);
+    }
+    h1 {
+      font-size: 1.35rem;
+      font-weight: 600;
+      margin-bottom: 0.25rem;
+    }
+    .meta {
+      font-size: 0.875rem;
+      color: var(--muted);
+      margin-bottom: 2rem;
+    }
+    h2 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      margin-top: 1.75rem;
+      margin-bottom: 0.5rem;
+    }
+    p, ul {
+      margin: 0.65rem 0;
+      font-size: 0.95rem;
+    }
+    ul {
+      padding-left: 1.25rem;
+    }
+    li {
+      margin: 0.35rem 0;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 2rem 0;
+    }
+    footer {
+      font-size: 0.8rem;
+      color: var(--muted);
+      margin-top: 2.5rem;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Privacy notice &amp; disclaimer</h1>
+  <p class="meta">FieldCap PHX Exporter — supplementary document for the Chrome extension and related tooling in this repository.</p>
+
+  <h2>Privacy</h2>
+  <p>This software is designed so that sensitive operational data stays under your control. In normal use:</p>
+  <ul>
+    <li><strong>Credentials.</strong> The browser extension does not collect, store, or transmit login passwords or API keys for FieldCap. It relies on your existing, logged-in FieldCap session in the browser—the same session you already use when viewing FieldCap in Chrome.</li>
+    <li><strong>Where data goes.</strong> Exports are written as files on your computer (for example through the browser’s download folder). The companion Excel workbook and CSV files you generate are stored wherever you choose on your device or network.</li>
+    <li><strong>Network use.</strong> The extension communicates only with FieldCap / PHX-related hosts needed to read data you already have access to in your session (for example OData endpoints). It does not send your data to servers operated by the authors of this repository.</li>
+    <li><strong>No analytics bundle.</strong> This project does not embed third-party analytics, advertising trackers, or telemetry aimed at measuring your usage.</li>
+    <li><strong>Browser permissions.</strong> Chrome permissions requested by the extension (such as downloads, storage, and access to PHX domains) exist to save files and operate only while you use the tool—not to ship data to unrelated sites.</li>
+  </ul>
+  <p>You are responsible for how exported CSVs and spreadsheets are shared, emailed, or archived. Treat exports like any other drilling or crew documentation subject to your employer’s policies and applicable laws.</p>
+
+  <hr>
+
+  <h2>Disclaimer</h2>
+  <p>This repository and its tools are independent and unofficial. They are not affiliated with, endorsed by, sponsored by, or supported by PHX Technology, Pason Systems, FieldCap, or any other third party mentioned in documentation or code comments.</p>
+  <p>Software is provided “as is,” without warranty of any kind. The authors are not liable for decisions made using exported data, loss of data, or any indirect or consequential damages arising from use of this project.</p>
+  <p>All product names, trademarks, and registered trademarks cited herein belong to their respective owners. Use of a name does not imply endorsement.</p>
+
+  <footer>
+    <p>For the open-source license applicable to this repository, see the LICENSE file in the project root.</p>
+  </footer>
+
+</body>
+</html>
