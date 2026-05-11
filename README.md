@@ -1,4 +1,4 @@
-# PHX FieldCap — Data Export & Field Reporting Ecosystem
+# PHX OpenCap — Data Export & Field Reporting Ecosystem
 
 **Chrome Extension + Excel VBA Dashboard**
 *Bridging wellsite data capture, office reporting, and equipment lifecycle tracking.*
@@ -7,7 +7,7 @@
 
 ## Overview
 
-PHX FieldCap is an integrated toolset that extracts operational drilling data from the [FieldCap](https://fieldcap.com/) web application and delivers it into structured formats for downstream use in Excel-based field reports, custom dashboards, and (planned) web-based office/field ecosystems.
+PHX OpenCap is an independent toolset that extracts operational drilling data from the [FieldCap](https://fieldcap-cdn.phxtech.com) web application and delivers it into structured formats for downstream use in Excel-based field reports, custom dashboards, and (planned) web-based office/field ecosystems.
 
 The system consists of two main components:
 
@@ -173,7 +173,7 @@ PHX_FieldCap/
 │
 └── src/
     ├── chrome-extension/
-    │   ├── manifest.json             (Manifest V3, v3.0.0)
+    │   ├── manifest.json             (Manifest V3, v3.1.1)
     │   ├── background.js            (OData fetch, CSV generation, ActivityLog parsing)
     │   ├── content.js               (DOM scraping, table detection, auto-scrape)
     │   ├── injected-spy.js          (page-context XHR/Fetch interception)
@@ -245,7 +245,11 @@ PHX_FieldCap/
 
 ## Disclaimer
 
-This project is an independent, unofficial tool. It is not affiliated with, endorsed by, or supported by PHX Technology, FieldCap, or any other third party. All trademarks belong to their respective owners.
+This project (OpenCap) is an independent, unofficial tool. It is **not affiliated with, endorsed by, or supported by PHX Technology, FieldCap, or any other third party.** All trademarks and product names belong to their respective owners.
+
+The name "FieldCap" is used solely to describe the third-party web application this tool interacts with. Use of that name does not imply any association or endorsement.
+
+Full disclaimer: [github.com/freebrew/FieldCap_PHX_Exporter#disclaimer](https://github.com/freebrew/FieldCap_PHX_Exporter#disclaimer)
 
 ---
 

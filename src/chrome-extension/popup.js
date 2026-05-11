@@ -1,4 +1,4 @@
-// FieldCap Data Exporter — Popup v3.1.0
+// OpenCap Data Exporter — Popup v3.1.1
 
 (async () => {
   "use strict";
