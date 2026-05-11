@@ -249,8 +249,6 @@ This project (OpenCap) is an independent, unofficial tool. It is **not affiliate
 
 The name [FieldCap](https://fieldcap.com/) is used solely to describe the third-party web application this tool interacts with. Use of that name does not imply any association or endorsement.
 
-Full disclaimer: [github.com/freebrew/FieldCap_PHX_Exporter#disclaimer](https://github.com/freebrew/FieldCap_PHX_Exporter#disclaimer)
-
 ---
 
 ## License
