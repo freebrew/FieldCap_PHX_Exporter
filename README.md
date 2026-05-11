@@ -245,9 +245,9 @@ PHX_FieldCap/
 
 ## Disclaimer
 
-This project (OpenCap) is an independent, unofficial tool. It is **not affiliated with, endorsed by, or supported by PHX Technology, FieldCap, or any other third party.** All trademarks and product names belong to their respective owners.
+This project (OpenCap) is an independent, unofficial tool. It is **not affiliated with, endorsed by, or supported by [PHX Technology](https://www.phxtech.com/), [FieldCap](https://fieldcap.com/), or any other third party.** All trademarks and product names belong to their respective owners.
 
-The name "FieldCap" is used solely to describe the third-party web application this tool interacts with. Use of that name does not imply any association or endorsement.
+The name [FieldCap](https://fieldcap.com/) is used solely to describe the third-party web application this tool interacts with. Use of that name does not imply any association or endorsement.
 
 Full disclaimer: [github.com/freebrew/FieldCap_PHX_Exporter#disclaimer](https://github.com/freebrew/FieldCap_PHX_Exporter#disclaimer)
 
